@@ -1,0 +1,28 @@
+{
+    "default_risk_percent": 1.0,
+    "high_volatility_risk_percent": 0.5,
+    "max_daily_loss_percent": 2.0,
+    "max_consecutive_losses": 3,
+    "min_rr_ratio": 2.0,
+    "min_setup_score": 80,
+    "timeframes": {
+        "analysis": [
+            "H4",
+            "H1",
+            "M15",
+            "M5"
+        ],
+        "entry": [
+            "M5",
+            "M1"
+        ]
+    },
+    "ema_periods": [
+        20,
+        50,
+        200
+    ],
+    "rsi_period": 14,
+    "atr_period": 14,
+    "max_spread": 50
+}
